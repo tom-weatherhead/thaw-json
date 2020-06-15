@@ -1,4 +1,4 @@
-// test/main.test.ts
+// thaw-json/test/main.test.ts
 
 'use strict';
 

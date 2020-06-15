@@ -1,4 +1,4 @@
-// thaw-json.ts/src/main.ts
+// thaw-json/src/main.ts
 
 'use strict';
 
