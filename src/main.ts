@@ -24,7 +24,7 @@ export async function writeJsonFile(
 ): Promise<void> {
 	const dataToWriteAsString = JSON.stringify(dataToWrite);
 
-	await promisifiedWriteFile(jsonFilePath, dataToWrite, {
+	await promisifiedWriteFile(jsonFilePath, dataToWriteAsString, {
 		encoding: 'utf8',
 		flag: 'a', // 'a' means appending (old data will be preserved)
 		mode: '0o644'
